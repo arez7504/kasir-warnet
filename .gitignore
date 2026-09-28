@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+
+# SQLite temporary & lock files
+database/*.db-wal
+database/*.db-shm
+database/*.db-journal
+database/sessions.db
+database/sessions.db*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test artifacts
+test-results/
+playwright-report/
+
+# OS generated files
+.DS_Store
+Thumbs.db
